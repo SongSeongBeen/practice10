@@ -1,0 +1,12 @@
+package com.javaex.ch18;
+
+public class ComputerTest {
+	
+	public static void main(String[] args) {
+		
+		Computer desktop = new Desktop();
+		Computer noteBook = new NoteBook();
+		desktop.display();
+		noteBook.display();
+	}
+}

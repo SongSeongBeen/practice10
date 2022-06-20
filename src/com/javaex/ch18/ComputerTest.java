@@ -6,7 +6,12 @@ public class ComputerTest {
 		
 		Computer desktop = new Desktop();
 		Computer noteBook = new NoteBook();
+		
+		Desktop desktop2 = new Desktop();
 		desktop.display();
+		desktop.turnOff();
+		desktop2.test();
+		
 		noteBook.display();
 	}
 }

@@ -16,6 +16,10 @@ public class Desktop extends Computer {
 	void turnOff() {
 		System.out.println("Desktop turnOff");
 	}
+
+	void test() {
+		System.out.println("test");
+	}
 	
 
 }

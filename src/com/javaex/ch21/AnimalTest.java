@@ -53,7 +53,7 @@ public class AnimalTest {
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
 		
-//		AnimalTest test = new AnimalTest();
+		AnimalTest test = new AnimalTest();
 //		test.moveAnimal(hAnimal);
 //		test.moveAnimal(tAnimal);
 //		test.moveAnimal(eAnimal);
@@ -66,6 +66,7 @@ public class AnimalTest {
 		for(Animal animal : animalList) {
 			animal.move();
 		}
+		test.testDownCasting(animalList);
 	}	
 	
 	public void moveAnimal(Animal animal) {

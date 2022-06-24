@@ -13,5 +13,7 @@ public class ComputerTest {
 		desktop2.test();
 		
 		noteBook.display();
+		
+	
 	}
 }
